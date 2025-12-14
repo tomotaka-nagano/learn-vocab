@@ -24,7 +24,7 @@ class Database:
         self._save_db()
     
     def load(self):
-        self._load_db()
+        self.db = self._load_db()
 
     def _load_db(self) -> list:
         if os.path.exists(DB_PATH):
