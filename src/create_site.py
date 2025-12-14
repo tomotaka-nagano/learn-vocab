@@ -8,7 +8,7 @@ REP_ORG = "'WORDS_DEF'"
 
 def convert_to_js_text(db: Database, start: int, finish: int) -> str:
     data = db.db[start - 1: finish]
-    lines = [f'{{no: {w.no}, en: "{w.en}", ja: "{w.jp}", ex_en: "{w.ex_en}", ex_jp: "{w.ex_jp}"}}' for w in data]
+    lines = [f'{{no: {w.no}, en: "{w.en}", ja: "{w.ja}", ex_en: "{w.ex_en}", ex_ja: "{w.ex_ja}"}}' for w in data]
     joiner = ',\n' + ' ' * 10
     return joiner.join(lines)
 
@@ -22,6 +22,7 @@ def create_html(rep_text: str):
 
 if __name__ == '__main__':
 
+    # python -m src.create_site で実行
     db = Database()
     db.load()
     rep_text = convert_to_js_text(db, 1, 100)

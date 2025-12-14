@@ -9,9 +9,9 @@ DB_PATH = r'src\resource\db.json'
 class Word:
     no: int
     en: str
-    jp: str
+    ja: str
     ex_en: str
-    ex_jp: str
+    ex_ja: str
 
 
 class Database:
