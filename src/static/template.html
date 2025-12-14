@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英単語学習アプリ</title>
+    <title>英単語/熟語のべんきょう</title>
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
     <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
@@ -20,106 +20,7 @@
 
         // 100個の英単語データ
         const vocabData = [
-          { en: "abandon", ja: "放棄する", ex_en: "They had to abandon the project.", ex_ja: "彼らはプロジェクトを放棄しなければならなかった。" },
-          { en: "ability", ja: "能力", ex_en: "She has the ability to solve complex problems.", ex_ja: "彼女は複雑な問題を解決する能力がある。" },
-          { en: "abroad", ja: "海外で", ex_en: "He is studying abroad in France.", ex_ja: "彼はフランスで留学している。" },
-          { en: "absence", ja: "不在", ex_en: "His absence was noticed immediately.", ex_ja: "彼の不在はすぐに気づかれた。" },
-          { en: "absolute", ja: "絶対的な", ex_en: "There is no absolute truth.", ex_ja: "絶対的な真実は存在しない。" },
-          { en: "absorb", ja: "吸収する", ex_en: "Plants absorb water through their roots.", ex_ja: "植物は根から水を吸収する。" },
-          { en: "abstract", ja: "抽象的な", ex_en: "The concept is too abstract to understand.", ex_ja: "その概念は抽象的すぎて理解できない。" },
-          { en: "abundant", ja: "豊富な", ex_en: "The area has abundant natural resources.", ex_ja: "その地域は豊富な天然資源がある。" },
-          { en: "accept", ja: "受け入れる", ex_en: "I accept your apology.", ex_ja: "あなたの謝罪を受け入れます。" },
-          { en: "access", ja: "アクセス", ex_en: "Students have access to the library.", ex_ja: "学生は図書館にアクセスできる。" },
-          { en: "accident", ja: "事故", ex_en: "There was a car accident on the highway.", ex_ja: "高速道路で車の事故があった。" },
-          { en: "accompany", ja: "同行する", ex_en: "May I accompany you to the station?", ex_ja: "駅まで同行してもいいですか？" },
-          { en: "accomplish", ja: "達成する", ex_en: "We accomplished our goal.", ex_ja: "私たちは目標を達成した。" },
-          { en: "according", ja: "従って", ex_en: "According to the report, sales increased.", ex_ja: "報告書によると、売上が増加した。" },
-          { en: "account", ja: "口座、説明", ex_en: "I opened a bank account yesterday.", ex_ja: "昨日銀行口座を開設した。" },
-          { en: "accurate", ja: "正確な", ex_en: "The information is accurate.", ex_ja: "その情報は正確だ。" },
-          { en: "achieve", ja: "達成する", ex_en: "She achieved her dream.", ex_ja: "彼女は夢を達成した。" },
-          { en: "acknowledge", ja: "認める", ex_en: "He acknowledged his mistake.", ex_ja: "彼は間違いを認めた。" },
-          { en: "acquire", ja: "獲得する", ex_en: "They acquired new skills.", ex_ja: "彼らは新しいスキルを獲得した。" },
-          { en: "adapt", ja: "適応する", ex_en: "Animals adapt to their environment.", ex_ja: "動物は環境に適応する。" },
-          { en: "adequate", ja: "適切な", ex_en: "The room has adequate space.", ex_ja: "部屋には適切な広さがある。" },
-          { en: "adjust", ja: "調整する", ex_en: "Please adjust the volume.", ex_ja: "音量を調整してください。" },
-          { en: "admire", ja: "賞賛する", ex_en: "I admire her courage.", ex_ja: "彼女の勇気を賞賛する。" },
-          { en: "admit", ja: "認める", ex_en: "He admitted his fault.", ex_ja: "彼は過ちを認めた。" },
-          { en: "adopt", ja: "採用する", ex_en: "They adopted a new policy.", ex_ja: "彼らは新しい方針を採用した。" },
-          { en: "advance", ja: "前進する", ex_en: "Technology continues to advance.", ex_ja: "技術は進歩し続けている。" },
-          { en: "advantage", ja: "利点", ex_en: "This plan has many advantages.", ex_ja: "この計画には多くの利点がある。" },
-          { en: "adventure", ja: "冒険", ex_en: "They went on an adventure.", ex_ja: "彼らは冒険に出かけた。" },
-          { en: "advertise", ja: "広告する", ex_en: "They advertise on social media.", ex_ja: "彼らはソーシャルメディアで広告している。" },
-          { en: "advice", ja: "助言", ex_en: "Can you give me some advice?", ex_ja: "助言をいただけますか？" },
-          { en: "affair", ja: "出来事", ex_en: "It's a private affair.", ex_ja: "それは私的な出来事だ。" },
-          { en: "affect", ja: "影響する", ex_en: "The weather affects our mood.", ex_ja: "天気は私たちの気分に影響する。" },
-          { en: "afford", ja: "余裕がある", ex_en: "I can't afford a new car.", ex_ja: "新しい車を買う余裕がない。" },
-          { en: "agency", ja: "機関", ex_en: "She works at a travel agency.", ex_ja: "彼女は旅行代理店で働いている。" },
-          { en: "agent", ja: "代理人", ex_en: "He is a real estate agent.", ex_ja: "彼は不動産代理人だ。" },
-          { en: "aggressive", ja: "攻撃的な", ex_en: "The dog became aggressive.", ex_ja: "その犬は攻撃的になった。" },
-          { en: "agriculture", ja: "農業", ex_en: "Agriculture is important for the economy.", ex_ja: "農業は経済にとって重要だ。" },
-          { en: "aim", ja: "目的", ex_en: "What is your aim in life?", ex_ja: "人生の目的は何ですか？" },
-          { en: "alarm", ja: "警報", ex_en: "The fire alarm went off.", ex_ja: "火災警報が鳴った。" },
-          { en: "album", ja: "アルバム", ex_en: "I bought their new album.", ex_ja: "彼らの新しいアルバムを買った。" },
-          { en: "alcohol", ja: "アルコール", ex_en: "He doesn't drink alcohol.", ex_ja: "彼はアルコールを飲まない。" },
-          { en: "alert", ja: "警戒", ex_en: "Stay alert at all times.", ex_ja: "常に警戒していてください。" },
-          { en: "alike", ja: "似ている", ex_en: "The twins look alike.", ex_ja: "双子は似ている。" },
-          { en: "alive", ja: "生きている", ex_en: "The plant is still alive.", ex_ja: "その植物はまだ生きている。" },
-          { en: "allow", ja: "許可する", ex_en: "Smoking is not allowed here.", ex_ja: "ここでは喫煙は許可されていない。" },
-          { en: "almost", ja: "ほとんど", ex_en: "I'm almost finished.", ex_ja: "ほとんど終わった。" },
-          { en: "alone", ja: "一人で", ex_en: "She lives alone.", ex_ja: "彼女は一人で暮らしている。" },
-          { en: "along", ja: "沿って", ex_en: "Walk along the river.", ex_ja: "川に沿って歩く。" },
-          { en: "aloud", ja: "声に出して", ex_en: "Please read aloud.", ex_ja: "声に出して読んでください。" },
-          { en: "already", ja: "すでに", ex_en: "I've already eaten.", ex_ja: "もう食べました。" },
-          { en: "alternative", ja: "代替の", ex_en: "We need an alternative plan.", ex_ja: "代替案が必要だ。" },
-          { en: "although", ja: "しかし", ex_en: "Although it was raining, we went out.", ex_ja: "雨だったが、私たちは外出した。" },
-          { en: "altitude", ja: "高度", ex_en: "The plane reached a high altitude.", ex_ja: "飛行機は高い高度に達した。" },
-          { en: "altogether", ja: "完全に", ex_en: "That's altogether different.", ex_ja: "それは完全に違う。" },
-          { en: "always", ja: "常に", ex_en: "She is always kind.", ex_ja: "彼女は常に親切だ。" },
-          { en: "amateur", ja: "アマチュア", ex_en: "He's an amateur photographer.", ex_ja: "彼はアマチュア写真家だ。" },
-          { en: "amaze", ja: "驚かせる", ex_en: "The magic trick amazed everyone.", ex_ja: "そのマジックはみんなを驚かせた。" },
-          { en: "ambition", ja: "野心", ex_en: "He has great ambition.", ex_ja: "彼は大きな野心を持っている。" },
-          { en: "amount", ja: "量", ex_en: "A large amount of money was stolen.", ex_ja: "大量の金が盗まれた。" },
-          { en: "amuse", ja: "楽しませる", ex_en: "The clown amused the children.", ex_ja: "ピエロは子供たちを楽しませた。" },
-          { en: "analyze", ja: "分析する", ex_en: "Scientists analyze the data.", ex_ja: "科学者はデータを分析する。" },
-          { en: "ancestor", ja: "祖先", ex_en: "My ancestors came from Italy.", ex_ja: "私の祖先はイタリアから来た。" },
-          { en: "ancient", ja: "古代の", ex_en: "They visited ancient ruins.", ex_ja: "彼らは古代遺跡を訪れた。" },
-          { en: "anger", ja: "怒り", ex_en: "He couldn't control his anger.", ex_ja: "彼は怒りを抑えられなかった。" },
-          { en: "angle", ja: "角度", ex_en: "Measure the angle carefully.", ex_ja: "角度を慎重に測ってください。" },
-          { en: "announce", ja: "発表する", ex_en: "They announced the results.", ex_ja: "彼らは結果を発表した。" },
-          { en: "annoy", ja: "いらいらさせる", ex_en: "The noise annoyed me.", ex_ja: "その騒音は私をいらいらさせた。" },
-          { en: "annual", ja: "年次の", ex_en: "We hold an annual meeting.", ex_ja: "私たちは年次会議を開催する。" },
-          { en: "answer", ja: "答え", ex_en: "I know the answer.", ex_ja: "答えを知っている。" },
-          { en: "anticipate", ja: "予想する", ex_en: "I anticipate problems.", ex_ja: "問題を予想している。" },
-          { en: "anxiety", ja: "不安", ex_en: "She felt great anxiety.", ex_ja: "彼女は大きな不安を感じた。" },
-          { en: "anxious", ja: "心配な", ex_en: "He was anxious about the test.", ex_ja: "彼はテストについて心配していた。" },
-          { en: "apart", ja: "離れて", ex_en: "They live apart.", ex_ja: "彼らは離れて暮らしている。" },
-          { en: "apologize", ja: "謝罪する", ex_en: "I apologize for being late.", ex_ja: "遅れたことを謝罪します。" },
-          { en: "apparent", ja: "明らかな", ex_en: "His mistake was apparent.", ex_ja: "彼の間違いは明らかだった。" },
-          { en: "appeal", ja: "訴える", ex_en: "They appealed for help.", ex_ja: "彼らは助けを訴えた。" },
-          { en: "appear", ja: "現れる", ex_en: "A rainbow appeared in the sky.", ex_ja: "空に虹が現れた。" },
-          { en: "appetite", ja: "食欲", ex_en: "I have a good appetite.", ex_ja: "食欲がある。" },
-          { en: "applaud", ja: "拍手する", ex_en: "The audience applauded loudly.", ex_ja: "観客は大きく拍手した。" },
-          { en: "apply", ja: "適用する", ex_en: "Apply pressure to the wound.", ex_ja: "傷に圧力を加えてください。" },
-          { en: "appoint", ja: "任命する", ex_en: "They appointed a new manager.", ex_ja: "彼らは新しいマネージャーを任命した。" },
-          { en: "appreciate", ja: "感謝する", ex_en: "I appreciate your help.", ex_ja: "あなたの助けに感謝します。" },
-          { en: "approach", ja: "接近する", ex_en: "Winter is approaching.", ex_ja: "冬が近づいている。" },
-          { en: "appropriate", ja: "適切な", ex_en: "Choose appropriate clothing.", ex_ja: "適切な服を選んでください。" },
-          { en: "approve", ja: "承認する", ex_en: "The plan was approved.", ex_ja: "計画は承認された。" },
-          { en: "approximate", ja: "おおよその", ex_en: "Give me an approximate time.", ex_ja: "おおよその時間を教えてください。" },
-          { en: "architect", ja: "建築家", ex_en: "She is a famous architect.", ex_ja: "彼女は有名な建築家だ。" },
-          { en: "argue", ja: "議論する", ex_en: "They argued about politics.", ex_ja: "彼らは政治について議論した。" },
-          { en: "arise", ja: "生じる", ex_en: "Problems may arise.", ex_ja: "問題が生じるかもしれない。" },
-          { en: "arrange", ja: "配置する", ex_en: "She arranged the flowers.", ex_ja: "彼女は花を配置した。" },
-          { en: "arrest", ja: "逮捕する", ex_en: "The police arrested the thief.", ex_ja: "警察は泥棒を逮捕した。" },
-          { en: "arrive", ja: "到着する", ex_en: "The train will arrive soon.", ex_ja: "電車はまもなく到着する。" },
-          { en: "article", ja: "記事", ex_en: "I read an interesting article.", ex_ja: "面白い記事を読んだ。" },
-          { en: "artificial", ja: "人工的な", ex_en: "These flowers are artificial.", ex_ja: "これらの花は人工的だ。" },
-          { en: "artist", ja: "芸術家", ex_en: "He is a talented artist.", ex_ja: "彼は才能ある芸術家だ。" },
-          { en: "ascend", ja: "上昇する", ex_en: "The balloon ascended into the sky.", ex_ja: "風船が空に上昇した。" },
-          { en: "ashamed", ja: "恥じて", ex_en: "He was ashamed of his behavior.", ex_ja: "彼は自分の行動を恥じていた。" },
-          { en: "aside", ja: "脇へ", ex_en: "Please step aside.", ex_ja: "脇へ寄ってください。" },
-          { en: "aspect", ja: "側面", ex_en: "Consider every aspect of the problem.", ex_ja: "問題のあらゆる側面を考慮してください。" },
-          { en: "dog", ja: "犬", ex_en: "Consider every aspect of the problem.", ex_ja: "問題のあらゆる側面を考慮してください。" }
+          'WORDS_DEF'
         ];
 
         // SVGアイコンコンポーネント
@@ -311,7 +212,7 @@
                               {vocab.ex_en}
                             </div>
                             <div className="text-gray-600 text-sm">
-                              ({vocab.ex_ja})
+                              {vocab.ex_ja}
                             </div>
                           </div>
                         </div>
