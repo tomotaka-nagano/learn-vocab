@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>sample.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #666;
+}
+
+table > thead > tr > th {
+	text-align: center;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	border: 1px solid #666;
+	padding: 4px;
+}
+
+table > tbody > tr > td:first-child {
+	text-align: center;
+}
+
+/* table > tbody > tr + tr > td {
+	border-top: 1px solid;
+} */
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1>英単語・熟語テスト (No.1 ~ No.100)</h1>
+<h2>1. 次の英単語・熟語を日本語になおしなさい。 (1問2点)</h2>
+<table>
+<thead>
+<tr>
+<th style="width:10%;">No.</th>
+<th style="width:40%;">問題</th>
+<th style="width:50%;">正解</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>(1)</td><td>excellent</td><td>すぐれた。優秀な</td></tr>
+<tr><td>(2)</td><td>event</td><td>行事， イベント</td></tr>
+<tr><td>(3)</td><td>blog</td><td>ブログ</td></tr>
+<tr><td>(4)</td><td>if</td><td>もし…ならば</td></tr>
+<tr><td>(5)</td><td>birthday</td><td>誕生日</td></tr>
+<tr><td>(6)</td><td>go well</td><td>うまくいく</td></tr>
+<tr><td>(7)</td><td>mobile phone</td><td>携帯電話</td></tr>
+<tr><td>(8)</td><td>information</td><td>情報</td></tr>
+<tr><td>(9)</td><td>look up</td><td>見上げる</td></tr>
+<tr><td>(10)</td><td>fireworks</td><td>花火</td></tr>
+<tr><td>(11)</td><td>mix</td><td>～を混ぜる，混ぜ合わせる</td></tr>
+<tr><td>(12)</td><td>hurry</td><td>急ぐ</td></tr>
+<tr><td>(13)</td><td>step</td><td>一歩，段階</td></tr>
+<tr><td>(14)</td><td>rude</td><td>失礼な、無礼な</td></tr>
+<tr><td>(15)</td><td>schoolyard</td><td>校庭</td></tr>
+<tr><td>(16)</td><td>expo</td><td>（万国）博覧会</td></tr>
+<tr><td>(17)</td><td>flower</td><td>花</td></tr>
+<tr><td>(18)</td><td>on time</td><td>時間通りに</td></tr>
+<tr><td>(19)</td><td>surf</td><td>（サイト）を見て回る</td></tr>
+<tr><td>(20)</td><td>quiz</td><td>クイズ，小テスト</td></tr>
+</tbody>
+</table>
+<h2>2. 次の日本語を英単語・熟語になおしなさい。 (1問2点)</h2>
+<table>
+<thead>
+<tr>
+<th style="width:10%;">No.</th>
+<th style="width:40%;">問題</th>
+<th style="width:50%;">正解</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>(21)</td><td>〜に取り組む</td><td>work on</td></tr>
+<tr><td>(22)</td><td>機会，チャンス</td><td>chance</td></tr>
+<tr><td>(23)</td><td>企画、プロジェクト</td><td>project</td></tr>
+<tr><td>(24)</td><td>物，事</td><td>thing</td></tr>
+<tr><td>(25)</td><td>～に立ち寄る</td><td>stop by</td></tr>
+<tr><td>(26)</td><td>出生地の，母国の</td><td>native</td></tr>
+<tr><td>(27)</td><td>〜を紹介する</td><td>introduce</td></tr>
+<tr><td>(28)</td><td>興奮した</td><td>excited</td></tr>
+<tr><td>(29)</td><td>ひとりで、単独で</td><td>alone</td></tr>
+<tr><td>(30)</td><td>映画</td><td>movie</td></tr>
+<tr><td>(31)</td><td>心配して</td><td>worried</td></tr>
+<tr><td>(32)</td><td>一輪車</td><td>unicycle</td></tr>
+<tr><td>(33)</td><td>AもBも両方とも</td><td>both A and B</td></tr>
+<tr><td>(34)</td><td>（～を）決意する，決定する</td><td>decide</td></tr>
+<tr><td>(35)</td><td>意見が一致する、賛意を示す</td><td>agree</td></tr>
+<tr><td>(36)</td><td>主題，話題</td><td>topic</td></tr>
+<tr><td>(37)</td><td>お守り</td><td>charm</td></tr>
+<tr><td>(38)</td><td>キャンプに行く</td><td>go camping</td></tr>
+<tr><td>(39)</td><td>（紙に）〜＜事・リストなど＞を漏れなく書き出す</td><td>write out</td></tr>
+<tr><td>(40)</td><td>空の旅，飛行（距離）</td><td>flight</td></tr>
+</tbody>
+</table>
+<h2>3. 次の英文を日本語に訳しなさい。 (1問4点)</h2>
+<table>
+<thead>
+<tr>
+<th style="width:10%;">No.</th>
+<th style="width:40%;">問題</th>
+<th style="width:50%;">正解</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>(41)</td><td>We go on a picnic every summer.</td><td>（私たちは毎年夏にはピクニックに行きます。）</td></tr>
+<tr><td>(42)</td><td>In Singapore, people use four different languages.</td><td>（シンガポールでは、4つの異なる言語が使われています。）</td></tr>
+<tr><td>(43)</td><td>Do you always have to wear a uniform at school?</td><td>（あなたは学校ではいつも制服を着ていなければならないのですか。）</td></tr>
+<tr><td>(44)</td><td>Explain your idea to the class.</td><td>（あなたの考えをクラスに説明してください。）</td></tr>
+<tr><td>(45)</td><td>I will call you when I arrive at the café.</td><td>（カフェに着いたらあなたに電話しますね。）</td></tr>
+</tbody>
+</table>
+</body>
+</html>

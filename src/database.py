@@ -1,6 +1,8 @@
 import json
 import os
 from dataclasses import dataclass, asdict
+import random
+
 
 DB_PATH = r'src\resource\db.json'
 
@@ -57,6 +59,16 @@ class Database:
         jsonable = [asdict(word) for word in self.db]
         with open(DB_PATH, 'w', encoding='utf-8') as fp:
             json.dump(jsonable, fp, indent=2, ensure_ascii=False)
+    
+    # -------------------------------------------------------------------------
+    # API
+    # -------------------------------------------------------------------------
+    def get_ramdom_words(self, count: int, exclude_nos: list[int], start_no: int, finish_no: int) -> list[Word]:
+        candidates = [
+            word for word in self.db
+            if start_no <= word.no <= finish_no and word.no not in exclude_nos
+        ]
+        return random.sample(candidates, count)
 
 
 if __name__ == '__main__':

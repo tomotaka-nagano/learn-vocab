@@ -387,7 +387,7 @@
   {
     "no": 56,
     "en": "information",
-    "ja": "｝情報",
+    "ja": "情報",
     "ex_en": "I need more information about the accident.",
     "ex_ja": "（その事故に関する情報がもっと必要です。）"
   },
@@ -491,8 +491,8 @@
   },
   {
     "no": 71,
-    "en": "firework",
-    "ja": "《fireworksで》花火",
+    "en": "fireworks",
+    "ja": "花火",
     "ex_en": "What time does the fireworks start?",
     "ex_ja": "（花火は何時に始まりますか。）"
   },

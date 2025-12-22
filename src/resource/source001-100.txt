@@ -274,7 +274,7 @@ What's the topic of today's class?
 （今日の授業の主題は何ですか。）
 
 information
-｝情報
+情報
 I need more information about the accident.
 （その事故に関する情報がもっと必要です。）
 
@@ -348,8 +348,8 @@ go on a picnic
 We go on a picnic every summer.
 （私たちは毎年夏にはピクニックに行きます。）
 
-firework
-《fireworksで》花火
+fireworks
+花火
 What time does the fireworks start?
 （花火は何時に始まりますか。）
 
