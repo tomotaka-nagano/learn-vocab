@@ -1,0 +1,9 @@
+# this app.
+exams/
+
+
+# python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd

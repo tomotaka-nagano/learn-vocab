@@ -25,5 +25,5 @@ if __name__ == '__main__':
     # python -m src.create_site で実行
     db = Database()
     db.load()
-    rep_text = convert_to_js_text(db, 1, 100)
+    rep_text = convert_to_js_text(db, 101, 200)
     create_html(rep_text)

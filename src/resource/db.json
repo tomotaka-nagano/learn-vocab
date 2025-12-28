@@ -698,5 +698,705 @@
     "ja": "韓国（人）の，朝鮮（人）の",
     "ex_en": "Mike often listens to Korean pop music.",
     "ex_ja": "（マイクはよく韓国のポップミュージックを聞きます。）"
+  },
+  {
+    "no": 101,
+    "en": "pop",
+    "ja": "ポピュラー音楽の",
+    "ex_en": "I like jazz better thon pop music.",
+    "ex_ja": "（私はポップミュージックよりジャズが好きです。）"
+  },
+  {
+    "no": 102,
+    "en": "could",
+    "ja": "can の過去形",
+    "ex_en": "I thought George could play tennis.",
+    "ex_ja": "（ジョージはテニスができるのだと私は思っていました。）"
+  },
+  {
+    "no": 103,
+    "en": "rise",
+    "ja": "＜太陽・月が＞昇る",
+    "ex_en": "The sun rises in the east.",
+    "ex_ja": "（太陽は東から昇ります。）"
+  },
+  {
+    "no": 104,
+    "en": "east",
+    "ja": "（the ～）東，東方",
+    "ex_en": "Lisa lives in the east of Paris.",
+    "ex_ja": "（リサはパリ東部に住んでいます。）"
+  },
+  {
+    "no": 105,
+    "en": "set",
+    "ja": "(太陽・月が）沈む",
+    "ex_en": "The sun sets in the west.",
+    "ex_ja": "（太陽は西に沈みます。）"
+  },
+  {
+    "no": 106,
+    "en": "west",
+    "ja": "（the ~）西，西方",
+    "ex_en": "Ken lives in the west of Tokyo.",
+    "ex_ja": "（ケンは東京の西部に住んでいます。）"
+  },
+  {
+    "no": 107,
+    "en": "invitation",
+    "ja": "招待，招待状",
+    "ex_en": "Thank you for your invitation to New York.",
+    "ex_ja": "（ニューヨークに招待してくれてありがとうございます。）"
+  },
+  {
+    "no": 108,
+    "en": "Shall we ...?",
+    "ja": "（一緒に）・・・しませんか。",
+    "ex_en": "Shall we meet at the airport?",
+    "ex_ja": "（空港でお会いしませんか。）"
+  },
+  {
+    "no": 109,
+    "en": "Shall I ...",
+    "ja": "（私が）…しましょうか。",
+    "ex_en": "Shall I call you when I arrive?",
+    "ex_ja": "（到着したら私があなたにお電話しましょうか。）"
+  },
+  {
+    "no": 110,
+    "en": "would like to",
+    "ja": "…したい",
+    "ex_en": "I would like to bring some Japanese sweets.",
+    "ex_ja": "（私は日本のお菓子をいくつか持っていきたいと思っています。）"
+  },
+  {
+    "no": 111,
+    "en": "have to",
+    "ja": "…しなければならない",
+    "ex_en": "You don't have to call me at the airport.",
+    "ex_ja": "（空港で私に電話をする必要はありません。）"
+  },
+  {
+    "no": 112,
+    "en": "Will you ...?",
+    "ja": "…していただけますか。…しませんか。",
+    "ex_en": "Will you send the photo to me, please",
+    "ex_ja": "（私にその写真を送ってくれませんか。）"
+  },
+  {
+    "no": 113,
+    "en": "safe",
+    "ja": "安全な、無事な",
+    "ex_en": "Have a safe flight.",
+    "ex_ja": "（安全なフライトになりますように。）"
+  },
+  {
+    "no": 114,
+    "en": "Why don't we…?",
+    "ja": "（一緒に）…しませんか。",
+    "ex_en": "Why don't we go to the movies tomorrow?",
+    "ex_ja": "（明日一緒に映画に行きませんか。）"
+  },
+  {
+    "no": 115,
+    "en": "I'm afraid..",
+    "ja": "残念だが…ではないかと思う。",
+    "ex_en": "I'm afraid I can't go with you.",
+    "ex_ja": "（残念ながらあなたと一緒に行くことはできません。）"
+  },
+  {
+    "no": 116,
+    "en": "Could you ...?",
+    "ja": "…していただけますか。",
+    "ex_en": "Could you cook dinner today?",
+    "ex_ja": "（今日のディナーを作っていただけますか。）"
+  },
+  {
+    "no": 117,
+    "en": "Would you ...?",
+    "ja": "…していただけますか。",
+    "ex_en": "Would you come and have dinner with us?",
+    "ex_ja": "（私たちの家で夕食をご一緒しませんか。）"
+  },
+  {
+    "no": 118,
+    "en": "had to",
+    "ja": "have to の過去形",
+    "ex_en": "I had to come home early.",
+    "ex_ja": "（私は早く帰宅しなければなりませんでした。）"
+  },
+  {
+    "no": 119,
+    "en": "should",
+    "ja": "…すべきである，・した方がいい",
+    "ex_en": "（医者に診てもらった方がいいですよ。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 120,
+    "en": "have to の3人称単数形",
+    "ja": "David has to take the exam today.",
+    "ex_en": "（デイビッドは今日テストを受けなければなりません。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 121,
+    "en": "＜動植物が＞原生でない。外来種の",
+    "ja": "What is a \"non-native species?\"",
+    "ex_en": "（「外来種」とは何ですか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 122,
+    "en": "（生物の）種",
+    "ja": "What species is this bird?",
+    "ex_en": "（この鳥は何という種ですか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 123,
+    "en": "～を作り出す。～を引き起こす",
+    "ja": "These species often create problems for the native animals.",
+    "ex_en": "（これらの種は在来種の動物にとって問題を生み出すことがよくあります。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 124,
+    "en": "<人・物>に取って代わる",
+    "ja": "Non-native species often take the place of other species.",
+    "ex_en": "（外来種は他の種に取って代わってしまうことがしばしばあります。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 125,
+    "en": "有害な",
+    "ja": "Are all non-native species harmful?",
+    "ex_en": "（すべての外来種が有害なのですか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 126,
+    "en": "土地，地面",
+    "ja": "Who owns this land?",
+    "ex_en": "（この土地の持ち主は誰ですか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 127,
+    "en": "〜の理由で",
+    "ja": "We can't go out because of the rain.",
+    "ex_en": "（雨が降っているので、私たちは外出できません。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 128,
+    "en": "人間の",
+    "ja": "Is it harmful to the human body?",
+    "ex_en": "（それは人間の身体にとって有害ですか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 129,
+    "en": "活動",
+    "ja": "Let's think about human activities and the environment.",
+    "ex_en": "（人間の活動と環境について考えてみましょう。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 130,
+    "en": "隅然に、思いがけず",
+    "ja": "I found the restaurant by accident.",
+    "ex_en": "（私は異然、そのレストランを見つけました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 131,
+    "en": "意図的に、わざと。故意に",
+    "ja": "The clown dropped the ball on purpose.",
+    "ex_en": "（ピエロはわざとボールを落としました)",
+    "ex_ja": ""
+  },
+  {
+    "no": 132,
+    "en": "船",
+    "ja": "People brought brown tree snakes into Guam on ships.",
+    "ex_en": "（人々はミナミオオガシラを船でグアムに持ち込みました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 133,
+    "en": "本来の、最初の",
+    "ja": "Who are the original members of the band?",
+    "ex_en": "（そのバンドに初めからいたメンバーは選ですか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 134,
+    "en": "ヨーロッパ(人)の",
+    "ja": "I think Paul is from a European country.",
+    "ex_en": "（ポールはヨーロッパのどこかの国の出身だと思います。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 135,
+    "en": "入植者，開拓移民",
+    "ja": "An English settler brought those rabbits into Australia.",
+    "ex_en": "（ある英国人の人物がそれらのウサギをオーストラリアに持ち込みました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 136,
+    "en": "～の中に〔へ］",
+    "ja": "We put some money into the box.",
+    "ex_en": "（私たちはその箱の中にお金を入れました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 137,
+    "en": "～を狩る",
+    "ja": "The settler wanted to hunt the rabbits for sport.",
+    "ex_en": "（その入植者は娯楽のためにそれらのウサギの狩りがしたかったのです。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 138,
+    "en": "生き残る",
+    "ja": "Some of the rabbits survived.",
+    "ex_en": "（それらのウサギの一部は生き残りました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 139,
+    "en": "作物",
+    "ja": "The rabbits ate crops and many native plants.",
+    "ex_en": "（それらのウサギは作物や多くの原生植物を食べました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 140,
+    "en": "グアム",
+    "ja": "Why don't we go to Guam next summer?",
+    "ex_en": "（来年の夏はグアムに行きませんか。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 141,
+    "en": "戦争",
+    "ja": "France was at war with Russia.",
+    "ex_en": "（フランスはロシアと取をしていました。）",
+    "ex_ja": ""
+  },
+  {
+    "no": 142,
+    "en": "名第二次世界大戦",
+    "ja": "My grandmother was born before",
+    "ex_en": "World War Il.",
+    "ex_ja": "（私の祖母は第二次世界大戦前に生まれました。）"
+  },
+  {
+    "no": 143,
+    "en": "forest",
+    "ja": "森林，森",
+    "ex_en": "Shall we walk in the forest tomorrow?",
+    "ex_ja": "（明日その森を散策しませんか。）"
+  },
+  {
+    "no": 144,
+    "en": "disappear",
+    "ja": "消失する。存在しなくなる",
+    "ex_en": "My cat suddenly disappeared.",
+    "ex_ja": "（私のネコが突然いなくなりました。）"
+  },
+  {
+    "no": 145,
+    "en": "completely",
+    "ja": "まったく，完全に",
+    "ex_en": "Some kinds of birds in Guam disappeared completely.",
+    "ex_ja": "（グアムに生息する鳥の一部の種が完全に消えてしまいました。）"
+  },
+  {
+    "no": 146,
+    "en": "scientist",
+    "ja": "科学者",
+    "ex_en": "Mr. Tanaka's son became a great scientist.",
+    "ex_ja": "（田中さんの息子さんは偉大な科学者になりました。）"
+  },
+  {
+    "no": 147,
+    "en": "government",
+    "ja": "政府",
+    "ex_en": "The government hopes the economy will improve.",
+    "ex_ja": "（政府は景気が良くなることを望んでいます。）"
+  },
+  {
+    "no": 148,
+    "en": "lives",
+    "ja": "life の複数形",
+    "ex_en": "We should save the lives of these dogs.",
+    "ex_ja": "（私たちはこれらの犬の命を救うべきです。）"
+  },
+  {
+    "no": 149,
+    "en": "giant",
+    "ja": "西巨大な",
+    "ex_en": "Look at this giant pumpkin!",
+    "ex_ja": "（この巨大なカボチャを見てください！）"
+  },
+  {
+    "no": 150,
+    "en": "tortoise",
+    "ja": "＜陸生の＞カメ",
+    "ex_en": "On this island, the native giant tortoise died out.",
+    "ex_ja": "（この島では、在来のゾウガメが絶滅しました。）"
+  },
+  {
+    "no": 151,
+    "en": "die out",
+    "ja": "絶滅する",
+    "ex_en": "Japanese wolves died out in 1905.",
+    "ex_ja": "（ニホンオオカミは1905年に絶滅しました。）"
+  },
+  {
+    "no": 152,
+    "en": "spread",
+    "ja": "～を広める。～を広げる",
+    "ex_en": "Spread the map on the table.",
+    "ex_ja": "（その地図をテーブルに応げてください）"
+  },
+  {
+    "no": 153,
+    "en": "seed",
+    "ja": "種，種子",
+    "ex_en": "Hamsters eat sunflower seeds.",
+    "ex_ja": "（ハムスターはひまわりの種を食べます。）"
+  },
+  {
+    "no": 154,
+    "en": "by themselves",
+    "ja": "彼ら自身で、彼女ら自身で、それら自身〔自体）",
+    "ex_en": "These plants cannot spread their seeds by themselves.",
+    "ex_ja": "（これらの植物はそれら自身で種を広めることができません。）"
+  },
+  {
+    "no": 155,
+    "en": "beginning",
+    "ja": "始め，最初",
+    "ex_en": "In the beginning, things went well.",
+    "ex_ja": "（最初は、事はうまく運んでいました。）"
+  },
+  {
+    "no": 156,
+    "en": "century",
+    "ja": "世紀",
+    "ex_en": "The first cafeteria appeared in the nineteenth century.",
+    "ex_ja": "（最初のカフェテリアは19世紀に登場しました。）"
+  },
+  {
+    "no": 157,
+    "en": "similar",
+    "ja": "似た、同じような",
+    "ex_en": "Those two words have a similar meaning.",
+    "ex_ja": "（それらの2つの単語には似たような意味があります。）"
+  },
+  {
+    "no": 158,
+    "en": "play a role",
+    "ja": "役割を果たす",
+    "ex_en": "Smartphones play a big role in our daily lives.",
+    "ex_ja": "（スマートフォンは私たちの日常生活で大きな役別を果たしています。）"
+  },
+  {
+    "no": 159,
+    "en": "case",
+    "ja": "場合",
+    "ex_en": "In my case, I often catch a cold in winter.",
+    "ex_ja": "（私の場合、冬によく風邪をひきます。）"
+  },
+  {
+    "no": 160,
+    "en": "either way",
+    "ja": "どちら［いずれ］にしても",
+    "ex_en": "Either way, you have to decide by yourself.",
+    "ex_ja": "いずれにせよ、あなたは自分で決断しなければなりません。）"
+  },
+  {
+    "no": 161,
+    "en": "as ... as one can",
+    "ja": "できるだけ…",
+    "ex_en": "We have to think about the problem as carefully as we can.",
+    "ex_ja": "（その問題についてできるだけ慎重に考えなければなりません。）"
+  },
+  {
+    "no": 162,
+    "en": "impact",
+    "ja": "影響，効果",
+    "ex_en": "The impact of non-native species is great.",
+    "ex_ja": "（外来種の影響は大きいです。）"
+  },
+  {
+    "no": 163,
+    "en": "environmental",
+    "ja": "環境の",
+    "ex_en": "There are many kinds of environmental problems today.",
+    "ex_ja": "（今日では、さまざまな種類の環境問題があります。）"
+  },
+  {
+    "no": 164,
+    "en": "choice",
+    "ja": "選択，選択肢",
+    "ex_en": "We have to make the right choices.",
+    "ex_ja": "（私たちは正しい選択をしなければなりません。）"
+  },
+  {
+    "no": 165,
+    "en": "earth",
+    "ja": "（the ~） 地球",
+    "ex_en": "The earth's natural environment will be in danger in the future.",
+    "ex_ja": "（地球の自然環境は将来危機にさらされるでしょう。）"
+  },
+  {
+    "no": 166,
+    "en": "in danger",
+    "ja": "危険な状態の。危機に瀕して",
+    "ex_en": "I heard the singer's life was in danger.",
+    "ex_ja": "（その歌手の命が危ういと聞きました。）"
+  },
+  {
+    "no": 167,
+    "en": "What's wrong (with ~)?",
+    "ja": "（～は）どうかしましたか。",
+    "ex_en": "What's wrong? Are you OK?",
+    "ex_ja": "（どうかしましたか。大丈夫ですか。）"
+  },
+  {
+    "no": 168,
+    "en": "stomachache",
+    "ja": "胃痛，腹痛",
+    "ex_en": "I have a stomachache.",
+    "ex_ja": "（おなかが痛いです。）"
+  },
+  {
+    "no": 169,
+    "en": "sore",
+    "ja": "痛い、ひりひりする",
+    "ex_en": "My right eye is sore.",
+    "ex_ja": "（右目が高いです。）"
+  },
+  {
+    "no": 170,
+    "en": "throat",
+    "ja": "のど",
+    "ex_en": "Do you have a sore throat?",
+    "ex_ja": "（のどは痛みますか。）"
+  },
+  {
+    "no": 171,
+    "en": "cough",
+    "ja": "せき",
+    "ex_en": "Sam often has a cough.",
+    "ex_ja": "（サムはよくせきが出ます。）"
+  },
+  {
+    "no": 172,
+    "en": "feel",
+    "ja": "…と感じる",
+    "ex_en": "If you feel sick, you should stay home.",
+    "ex_ja": "（もし具合が悪いと感じるなら、家にいるべきです。）"
+  },
+  {
+    "no": 173,
+    "en": "dizzy",
+    "ja": "囲めまいがする。目が回る。くらくらする",
+    "ex_en": "I feel a little dizzy.",
+    "ex_ja": "(少しめまいがします。)"
+  },
+  {
+    "no": 174,
+    "en": "strict",
+    "ja": "厳しい、厳格な",
+    "ex_en": "The new math teacher is strict.",
+    "ex_ja": "（新しい数学の先生は厳しいです。）"
+  },
+  {
+    "no": 175,
+    "en": "serious",
+    "ja": "きまじめな",
+    "ex_en": "I feel that he is a very serious person.",
+    "ex_ja": "（彼はとてもまじめな人だと感じます。）"
+  },
+  {
+    "no": 176,
+    "en": "person",
+    "ja": "人，人間",
+    "ex_en": "What kind of person is the new music teacher？",
+    "ex_ja": "（新しい音楽の先生はどんな人ですか。）"
+  },
+  {
+    "no": 177,
+    "en": "cheerful",
+    "ja": "元気のいい。快活な",
+    "ex_en": "Maria is always cheerful and happy.",
+    "ex_ja": "（マリアはいつも元気で幸せです。）"
+  },
+  {
+    "no": 178,
+    "en": "polite",
+    "ja": "礼儀正しい。丁寧な",
+    "ex_en": "John is very kind and polite.",
+    "ex_ja": "（ジョンはとても親切で礼儀正しいです。）"
+  },
+  {
+    "no": 179,
+    "en": "quiet",
+    "ja": "寡黙な、静かな、おとなしい",
+    "ex_en": "You have to be quiet here.",
+    "ex_ja": "（ここでは静かにしていなければなりません。）"
+  },
+  {
+    "no": 180,
+    "en": "flute",
+    "ja": "フルート，笛",
+    "ex_en": "I practice the flute every Sunday.",
+    "ex_ja": "（私は毎週日曜日にフルートの練習をします。）"
+  },
+  {
+    "no": 181,
+    "en": "tomato",
+    "ja": "トマト",
+    "ex_en": "I like tomatoes.",
+    "ex_ja": "（私はトマトが好きです。）"
+  },
+  {
+    "no": 182,
+    "en": "sleepy",
+    "ja": "眠い",
+    "ex_en": "I'm tired and sleepy.",
+    "ex_ja": "（私は疲れて眠いです。）"
+  },
+  {
+    "no": 183,
+    "en": "rice ball",
+    "ja": "おにぎり",
+    "ex_en": "I'm making miso soup and rice balls.",
+    "ex_ja": "（私はみそ汁とおにぎりを作っているところです。）"
+  },
+  {
+    "no": 184,
+    "en": "bagel",
+    "ja": "ベーグル",
+    "ex_en": "You should try bagels for breakfast.",
+    "ex_ja": "（ぜひ朝食にベーグルを食べてみてください。）"
+  },
+  {
+    "no": 185,
+    "en": "cheese",
+    "ja": "チーズ",
+    "ex_en": "The bagel with salmon and cream cheese is my favorite.",
+    "ex_ja": "（サーモンとクリームチーズのベーグルが私のお気に入りです。）"
+  },
+  {
+    "no": 186,
+    "en": "yummy",
+    "ja": "おいしい，うまい",
+    "ex_en": "This bagel is yummy!",
+    "ex_ja": "（このベーグル、おいしい！）"
+  },
+  {
+    "no": 187,
+    "en": "became",
+    "ja": "become の過去形",
+    "ex_en": "David became a soccer player.",
+    "ex_ja": "（デイビッドはサッカー選手になりました。）"
+  },
+  {
+    "no": 188,
+    "en": "become",
+    "ja": "～になる",
+    "ex_en": "Yumi will become a great cook.",
+    "ex_ja": "（コミはすぐれた料理人になるでしょう。）"
+  },
+  {
+    "no": 189,
+    "en": "grew",
+    "ja": "grow の過去形",
+    "ex_en": "David grew really tall.",
+    "ex_ja": "（デイビッドはすごく背が伸びました。）"
+  },
+  {
+    "no": 190,
+    "en": "grow",
+    "ja": "（成長して）…になる",
+    "ex_en": "The tomatoes in our garden don't grow big.",
+    "ex_ja": "（私たちの庭のトマトが大きくなりません。）"
+  },
+  {
+    "no": 191,
+    "en": "taste",
+    "ja": "...の味がする",
+    "ex_en": "This chicken tastes spicy!",
+    "ex_ja": "（この鶏肉は辛い（味がする）ね！）"
+  },
+  {
+    "no": 192,
+    "en": "series",
+    "ja": "シリーズ（もの）",
+    "ex_en": "I love the Harry Potter series.",
+    "ex_ja": "（私は「ハリー・ポッター」シリーズが大好きです。）"
+  },
+  {
+    "no": 193,
+    "en": "Me, too.",
+    "ja": "私もです。",
+    "ex_en": "\"I love this book.\" \"Me, too.\"",
+    "ex_ja": "（「私はこの本が大好きです。」「私もです。」）"
+  },
+  {
+    "no": 194,
+    "en": "er",
+    "ja": "えー、あのう＜言葉につまった時などに使う＞",
+    "ex_en": "Er..., I don't feel well today.",
+    "ex_ja": "（ええと…，今日は具合がよくないんです。）"
+  },
+  {
+    "no": 195,
+    "en": "yet",
+    "ja": "＜否定文で＞まだ",
+    "ex_en": "I don't have this book yet.",
+    "ex_ja": "（私はまだこの本は持っていません。）"
+  },
+  {
+    "no": 196,
+    "en": "Thanks (a lot).",
+    "ja": "ありがとう。(親しい間柄で）",
+    "ex_en": "Thanks a lot.",
+    "ex_ja": "（どうもありがとう。）"
+  },
+  {
+    "no": 197,
+    "en": "appreciate",
+    "ja": "～を感謝する",
+    "ex_en": "I appreciate it.",
+    "ex_ja": "（感謝します。）"
+  },
+  {
+    "no": 198,
+    "en": "lend",
+    "ja": "～を貸す",
+    "ex_en": "Maria lent me her new bike.",
+    "ex_ja": "（マリアは私に新しい自転車を貸してくれました。）"
+  },
+  {
+    "no": 199,
+    "en": "choose",
+    "ja": "～を選ぶ，選択する",
+    "ex_en": "We chose Kevin as our leader.",
+    "ex_ja": "（私たちはケビンをリーダーに選びました。)"
+  },
+  {
+    "no": 200,
+    "en": "smile",
+    "ja": "ほほえむ",
+    "ex_en": "Mr. Jones smiled at the children.",
+    "ex_ja": "（ジョーンズ先生は子供たちにほほえみかけました。）"
   }
 ]

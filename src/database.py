@@ -74,4 +74,4 @@ class Database:
 if __name__ == '__main__':
 
     db = Database()
-    db.add_to_db(r'src\resource\source001-100.txt')
+    db.add_to_db(r'src\resource\source101-200.txt')
