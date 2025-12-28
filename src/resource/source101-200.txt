@@ -90,6 +90,7 @@ I had to come home early.
 
 should
 …すべきである，・した方がいい
+You should see a doctor.
 （医者に診てもらった方がいいですよ。）
 
 has to
@@ -204,8 +205,7 @@ France was at war with Russia.
 
 World War II
 名第二次世界大戦
-My grandmother was born before
-World War Il.
+My grandmother was born before World War Ⅱ.
 （私の祖母は第二次世界大戦前に生まれました。）
 
 forest
